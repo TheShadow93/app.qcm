@@ -1,12 +1,14 @@
+
 import java.io.FileReader;
 import java.io.BufferedReader;
 import java.io.IOException;
 
-public class Project {  
+public class Project {
 
 public static void main(String[] arguments) {
 FileReader monFichier = null;
 BufferedReader Read = null;
+
 try {
 monFichier = new FileReader("azerty.txt");
 Read = new BufferedReader(monFichier);
