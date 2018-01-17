@@ -29,7 +29,7 @@ public class Project {
 		 }
 		System.out.println("Bill Clinton : 1");
 		System.out.println("Barack Obama : 2");
-		System.out.println("Georges W Bush : 2");
+		System.out.println("Georges W Bush : 3");
 		System.out.println("Donald Trump : 4");
 		
 		int user1 = scan.nextInt();
