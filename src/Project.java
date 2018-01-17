@@ -1,5 +1,5 @@
-import java.io.FileReader;
-import java.io.BufferedReader;
+
+import java.io.File;
 public class Project {
 
 		
@@ -7,9 +7,8 @@ public class Project {
 			
 	
 	public static void main(String[] args) {
-		FileReader monFichier = null;
-		BufferedReader lire = null;
-		monFichier = new FileReader("./Documents/GitHub/app.qcm/src/fichier.csv");
+		File file = new File("test.txt");
+		
 	}
 }
 
