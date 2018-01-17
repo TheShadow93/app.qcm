@@ -9,7 +9,7 @@ public class Project {
 	public static void main(String[] args) {
 		FileReader monFichier = null;
 		BufferedReader lire = null;
-		monFichier = new FileReader;
+		monFichier = new FileReader("./Documents/GitHub/app.qcm/src/fichier.csv");
 	}
 }
 
