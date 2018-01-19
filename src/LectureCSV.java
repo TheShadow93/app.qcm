@@ -2,35 +2,51 @@
 import java.io.FileReader;
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.util.Scanner;
+
+import com.sun.javafx.scene.control.behavior.DateCellBehavior;
+
+import jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode;
 
 public class LectureCSV {
 
 public static void main(String[] arguments) {
+	String tableau[] = new String[4];
 	
-FileReader monFichier = null;
-BufferedReader Read = null;
-
-try {
-monFichier = new FileReader("azerty.txt");
-Read = new BufferedReader(monFichier);
-
-while (true) {
-// Lit une ligne de test.csv
-String ligne = Read.readLine();
-// Vérifie la fin de fichier
-if (ligne == null)
-break;
-System.out.println(ligne);
-} // Fin du while
-} catch (IOException exception) {
-exception.printStackTrace();
-} finally {
-try {
-Read.close();
-monFichier.close();
-} catch(IOException exception1) {
-exception1.printStackTrace();
+	BufferedReader bufReader = null;
+	try {
+		bufReader = new BufferedReader(new FileReader("DATA.csv"));
+		String rowData = "";
+		bufReader.readLine(); // Enleve la premiere colonne dans DATA.csv
+		String [] databyrow;
+		while ((rowData = bufReader.readLine())!=null) {
+			databyrow = rowData.split(";"); // Convertir String en Tableau
+			
+			for (int i = 0 ; i< databyrow.length; i++) {
+			//for(String s: databyrow) {
+				String s = databyrow[i];
+				System.out.println(s);
+				tableau[i]= s;
+			}
+			System.out.println("--- VOTRE REPONSE---");
+			Scanner sc = new Scanner(System.in);
+			String reponse = sc.next();
+			if(reponse.equals(tableau[1]) ) {
+				System.out.println("ok");
+			}
+			else{
+				System.out.println("not ok");
 			}
 		}
-	} 
+	} catch  (Exception e) {
+		// TODO: handle exception
+	}
+		
+
+		
+	
+	
+	
+	
+	}
 }
