@@ -40,10 +40,6 @@ public static void main(String[] arguments) {
 		// TODO: handle exception
 	}
 		
-
-		
-	
-	
 	
 	
 	}
