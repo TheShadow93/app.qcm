@@ -29,7 +29,7 @@ public static void main(String[] arguments) {
 			System.out.println("--- VOTRE REPONSE---");
 			Scanner sc = new Scanner(System.in);
 			String reponse = sc.next();
-			if(reponse.equals("+") ) {
+			if(reponse.equals(tableau[1]) ) {
 				System.out.println("ok");
 			}
 			else{
