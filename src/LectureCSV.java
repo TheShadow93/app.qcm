@@ -3,7 +3,7 @@ import java.io.FileReader;
 import java.io.BufferedReader;
 import java.io.IOException;
 
-public class Project {
+public class LectureCSV {
 
 public static void main(String[] arguments) {
 	
