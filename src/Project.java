@@ -6,6 +6,7 @@ import java.io.IOException;
 public class Project {
 
 public static void main(String[] arguments) {
+	
 FileReader monFichier = null;
 BufferedReader Read = null;
 

@@ -1,1 +1,6 @@
-Fcff
+QCM ( Cultures générales)
+
+1) Quel est la capitale de la france ?
+a) Paris : 1
+b) Madrid : 2
+c) Lisbonne : 3
