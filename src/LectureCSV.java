@@ -22,7 +22,6 @@ public static void main(String[] arguments) {
 			databyrow = rowData.split(";"); // Convertir String en Tableau
 			
 			for (int i = 0 ; i< databyrow.length; i++) {
-			//for(String s: databyrow) {
 				String s = databyrow[i];
 				System.out.println(s);
 				tableau[i]= s;
