@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class LectureCSV {
 
 public static void main(String[] arguments) {
+	int x = 0;
 	String tableau[] = new String[4];
 	
 	BufferedReader bufReader = null;
@@ -30,11 +31,13 @@ public static void main(String[] arguments) {
 			Scanner sc = new Scanner(System.in);
 			String reponse = sc.next();
 			if(reponse.equals(tableau[1]) ) {
-				System.out.println("ok");
+				System.out.println("Bonne réponse");
+				x++;
 			}
 			else{
-				System.out.println("not ok");
+				System.out.println("Mauvaise réponse");
 			}
+			System.out.println("Vous avez un score de " + x + "/10");
 		}
 	} catch  (Exception e) {
 		// TODO: handle exception
