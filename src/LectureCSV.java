@@ -36,12 +36,14 @@ public static void main(String[] arguments) {
 			else{
 				System.out.println("Mauvaise réponse");
 			}
-			System.out.println("Vous avez un score de " + x + "/10");
+			
 		}
-	} catch  (Exception e) {
-		// TODO: handle exception
-	}
 		
+	} catch  (Exception e) {
+		
+	}
+	
+	System.out.println("Vous avez un score de " + x + "/10");
 	
 	
 	}
