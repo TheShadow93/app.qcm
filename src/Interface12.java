@@ -15,9 +15,7 @@ static int résultat;
 	private JPanel contentPane;
 	private JTextField textField;
 
-	/**
-	 * Launch the application.
-	 */
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -33,9 +31,7 @@ static int résultat;
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
+
 	public Interface12() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 650, 300);

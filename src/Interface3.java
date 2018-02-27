@@ -21,7 +21,6 @@ public class Interface3 extends JFrame {
 			public void run() {
 				try {
 					Interface3 frame = new Interface3();
-					frame.setTitle("QCM");
 					frame.setLocationRelativeTo(null);
 					frame.setVisible(true);
 				} catch (Exception e) {
@@ -78,6 +77,7 @@ public class Interface3 extends JFrame {
 				
 				Close();
 				Interface4 if4 = new Interface4();
+				if4.setTitle("QCM");
 				if4.setLocationRelativeTo(null);
 				if4.setVisible(true);
 				

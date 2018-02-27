@@ -80,6 +80,7 @@ public class Interface7 extends JFrame {
 				
 				Close();
 				Interface8 if8 = new Interface8();
+				if8.setTitle("QCM");
 				if8.setLocationRelativeTo(null);
 				if8.setVisible(true);
 				

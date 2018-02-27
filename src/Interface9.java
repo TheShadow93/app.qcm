@@ -65,6 +65,7 @@ public class Interface9 extends JFrame {
 				résultat++;
 				Close();
 				Interface10 if10 = new Interface10();
+				if10.setTitle("QCM");
 				if10.setLocationRelativeTo(null);
 				if10.setVisible(true);
 				
